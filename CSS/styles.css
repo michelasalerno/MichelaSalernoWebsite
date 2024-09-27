@@ -1,14 +1,36 @@
 
+.layout {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.description {
+    flex: 1;
+    padding-right: 20px;
+    max-width: 40%;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    flex: 1;
+    padding-left: 10%;
+    max-width: 40%;
+}
+
 .btn {
     cursor: pointer; 
     border: 0px solid rgb(0, 0, 0); 
-    font-family: "Bebas Neue";
-    font-size: 34px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large; 
     color: rgb(255, 255, 255); 
     padding: 3% 5%;  
     margin-bottom: 5%;
     transition: 2057ms; 
-    width: 300px; 
+    width: 80%; 
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
     border-radius: 15px; 
     background: rgb(90, 170, 250); 
@@ -21,14 +43,48 @@
 
 .btn:hover{                               
     color: rgb(255, 255, 255);
-    width: 337px;
-    background: rgb(0, 102, 204) none repeat scroll 0% 0% / auto padding-box border-box;
-    border-style: solid;
+    width: 95%;
+    background: #0056b3;
      }
                             
 .link-no-underline {
 text-decoration: none;
 }            
-                        
+       
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(192, 210, 228);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Spazio tra i bottoni */
+}
+
+.icon-btn {
+  background-color:rgb(90, 170, 250); /* Colore di sfondo del bottone */
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 30px; /* Dimensione dell'icona */
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.icon-btn:hover {
+  background-color: #0056b3; /* Colore di sfondo quando si passa sopra */
+}
+
+.footer a {
+  text-decoration: none;
+}
 
                     
